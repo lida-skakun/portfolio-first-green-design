@@ -1,3 +1,26 @@
+:root {
+  --additional-dark-color: #333;
+  --primary-color: #00b295;
+  --main-gradient: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  --additional-gradient: linear-gradient(135deg, #00b295, #00ace0);
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.introducing {
+  background-image: var(--main-gradient);
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  color: var(--additional-dark-color);
+  font-weight: 700;
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 24px;
 }
