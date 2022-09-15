@@ -12,7 +12,7 @@ body {
 .introducing {
   background-image: var(--main-gradient);
   margin: 0 auto;
-  padding: 40px;
+  padding: 40px 40px 150px 40px;
 }
 
 h1 {
@@ -27,13 +27,31 @@ h2 {
   margin-bottom: 100px;
 }
 
+.introducing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.introducing img {
+  width: 300px;
+}
+
 .introducing a {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 50px;
-  background-color: #00b295;
-  background-image: var(--additional-gradient);
   font-size: 16px;
   font-weight: 700;
+  color: #ffffff;
   text-transform: uppercase;
+}
+
+.about-me-link {
+  background-color: #00b295;
+  background-image: var(--additional-gradient);
+  margin-right: 30px;
+}
+
+.my-works-link {
+  background: var(--additional-dark-color);
 }
