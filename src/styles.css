@@ -24,7 +24,6 @@ h1 {
 h2 {
   font-size: 24px;
   opacity: 0.8;
-  margin-bottom: 100px;
 }
 
 .introducing {
@@ -33,7 +32,7 @@ h2 {
 }
 
 .introducing img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .introducing a {
@@ -44,6 +43,7 @@ h2 {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  max-width: 200px;
 }
 
 .about-me-link {
@@ -54,4 +54,10 @@ h2 {
 
 .my-works-link {
   background: var(--additional-dark-color);
+}
+
+/*@media (max-width: 576px) {
+  .introducing {
+    display: block;
+  }
 }
