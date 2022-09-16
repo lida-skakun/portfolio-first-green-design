@@ -63,3 +63,18 @@ i {
 .arrow {
   margin: 45%;
 }
+
+h3 {
+  background: var(--additional-gradient);
+}
+
+.description {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (max-width: 576px) {
+  .apps-details {
+    margin: 10px !important;
+  }
+}
