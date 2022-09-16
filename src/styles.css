@@ -9,10 +9,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.introducing {
+.header {
   background-image: var(--main-gradient);
-  margin: 0 auto;
-  padding: 40px 40px 150px 40px;
+  padding: 40px;
 }
 
 h1 {
@@ -47,7 +46,7 @@ h2 {
 }
 
 .about-me-link {
-  background-color: #00b295;
+  background-color: var(--primary-color);
   background-image: var(--additional-gradient);
   margin-right: 30px;
 }
@@ -56,8 +55,11 @@ h2 {
   background: var(--additional-dark-color);
 }
 
-/*@media (max-width: 576px) {
-  .introducing {
-    display: block;
-  }
+i {
+  color: var(--primary-color);
+  font-size: 50px;
+}
+
+.arrow {
+  margin: 45%;
 }
