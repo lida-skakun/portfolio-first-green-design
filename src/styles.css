@@ -34,7 +34,8 @@ h2 {
   max-width: 300px;
 }
 
-.introducing a {
+.my-works-link,
+.about-me-link {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 50px;
@@ -57,11 +58,13 @@ h2 {
 
 i {
   color: var(--primary-color);
+  text-align: center !important;
+
   font-size: 50px;
 }
 
 .arrow {
-  margin: 45%;
+  text-align: center;
 }
 
 h3 {
@@ -76,5 +79,11 @@ h3 {
 @media (max-width: 576px) {
   .apps-details {
     margin: 10px !important;
+  }
+  .description {
+    margin-bottom: 5px !important;
+  }
+  h3 {
+    margin-top: 30px;
   }
 }
