@@ -79,9 +79,19 @@ h3 {
 .about-section {
   margin-top: 40px;
 }
+.main-section {
+  padding-top: 40px;
+  background: #f3f3f3;
+}
 
 .photo {
   max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .photo {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -98,11 +108,5 @@ h3 {
   .photo-section,
   h1 {
     text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .photo {
-    max-width: 200px;
   }
 }
