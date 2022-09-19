@@ -31,7 +31,7 @@ h2 {
   justify-content: space-around;
 }
 
-.introducing img {
+.introducing-image {
   max-width: 300px;
 }
 
@@ -79,22 +79,16 @@ h3 {
 .about-section {
   margin-top: 40px;
 }
+
 .main-section {
   padding-top: 40px;
   background: #f3f3f3;
-}
-
-.photo {
-  max-width: 300px;
 }
 
 .contacts-box {
   line-height: 3;
 }
 
-.h2 {
-  display: inline-block;
-}
 @media (max-width: 768px) {
   .photo {
     max-width: 200px;
@@ -105,14 +99,20 @@ h3 {
   .apps-details {
     margin: 10px !important;
   }
+
   .description {
     margin-bottom: 5px !important;
   }
+
   h3 {
     margin-top: 30px;
   }
 
   .photo-section {
     text-align: center;
+  }
+  .contacts-box {
+    padding: 5px;
+    margin: 5px;
   }
 }
