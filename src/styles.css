@@ -24,8 +24,7 @@ nav li.active a {
   font-weight: 700;
 }
 
-.header,
-.contacts-box {
+.bg-main-gradient {
   background-image: var(--main-gradient);
   padding: 40px;
 }
@@ -52,7 +51,7 @@ h2,
 }
 
 .my-works-link,
-.about-me-link {
+.general-link {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 50px;
@@ -63,7 +62,7 @@ h2,
   max-width: 200px;
 }
 
-.about-me-link {
+.general-link {
   background-color: var(--primary-color);
   background-image: var(--additional-gradient);
   margin-right: 30px;
@@ -105,9 +104,21 @@ h3 {
   line-height: 3;
 }
 
+footer .contacts {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 100px;
+  border-radius: 10px;
+}
+
 @media (max-width: 768px) {
   .photo {
     max-width: 200px;
+  }
+
+  footer .contacts {
+    margin: 0;
+    border-radius: 0;
   }
 }
 
@@ -134,5 +145,13 @@ h3 {
   .contacts-box {
     padding: 5px;
     margin: 5px;
+  }
+  .general-link {
+    margin-right: 0;
+  }
+
+  footer .contacts {
+    display: block;
+    text-align: center;
   }
 }
