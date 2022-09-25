@@ -9,6 +9,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 5;
+}
+
+.general {
+  padding-top: 130px !important;
+}
+
 nav li {
   display: inline;
   margin-left: 15px;

@@ -31,7 +31,23 @@
     <title>About me</title>
   </head>
   <body>
-    <div class="about-section container">
+    <header>
+      <nav class="d-flex justify-content-around">
+        <a href="/" class="d-none d-sm-block" title="Lida Tkachova's icon">
+          <i class="fa-solid fa-l icon"></i>
+          <i class="fa-solid fa-t icon"></i>
+        </a>
+        <ul class="m-0 p-0">
+          <li><a href="/">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About me">About me</a>
+          </li>
+          <li><a href="/work.html" title="My works">My works</a></li>
+          <li><a href="/contacts.html" title="Contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="about-section container mt-5">
       <h1>Hi I am Lida Tkachova</h1>
       <div class="row">
         <div class="col-sm col-lg-4 photo-section">
@@ -57,7 +73,44 @@
           </a>
         </div>
       </div>
-      <div class="fotter"></div>
+      <footer class="mt-5">
+        <div class="contacts bg-main-gradient">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="description">Let's work together</p>
+          </div>
+          <div class="mt-4">
+            <a
+              href="mailto:lida@gmail.com"
+              class="general-link"
+              title="You can send email here"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <p class="text-center m-5">
+          <a
+            href="https://twitter.com/lidatkachova"
+            target="_blank"
+            title="go to twitter"
+            ><i class="fa-brands fa-twitter me-5"></i
+          ></a>
+          <a
+            href="http://instagram.com/lida.codes"
+            target="_blank"
+            title="go to instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </p>
+        <p class="text-center author-info">
+          This website was coded by Lida Tkachova, and is
+          <a
+            href="https://github.com/lida-skakun/portfolio-first-green-design"
+            title="go to github repository"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
