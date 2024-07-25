@@ -31,85 +31,86 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
     <title>Front End developer - Lida Tkachova, Poland</title>
   </head>
   <body>
     <header>
       <nav class="d-flex justify-content-around">
-        <a href="/" class="d-none d-sm-block" title="Lida Tkachova's icon">
+        <span class="d-none d-sm-block">
           <i class="fa-solid fa-l icon"></i>
           <i class="fa-solid fa-t icon"></i>
-        </a>
+        </span>
         <ul class="m-0 p-0">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html" title="About me">About me</a></li>
-          <li><a href="/work.html" title="My works">My works</a></li>
-          <li><a href="/contacts.html" title="Contacts">Contacts</a></li>
+          <li><a href="./about.html" title="About me">My CV</a></li>
+          <li><a href="#works" title="My works">My works</a></li>
+          <li><a href="#contacts" title="Contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
     <div class="bg-main-gradient mb-5 general">
       <div class="introducing mb-5">
         <div class="general-info">
-          <h1>Lida Tkachova</h1>
-          <h2 class="mb-5">Front-end developer based in Poland, Europe</h2>
+          <h1>Lidiia Tkachova</h1>
+          <h2 class="mb-5">Front-end developer</h2>
 
           <a
-            href="/about.html"
+            href="./about.html"
             class="general-link mt-5 d-block d-sm-inline shadow"
             title="About me"
-            >About me ></a
+            >My CV ></a
           >
           <a
-            href="/work.html"
+            href="#works"
             class="my-works-link mt-5 d-block d-sm-inline shadow"
             title="My works"
             >My works ></a
           >
         </div>
         <img
-          src="/images/working_remotely.svg"
+          src="./images/working_remotely.svg"
           alt="working-woman-svg"
           title="woman-coding-front-end"
           class="introducing-image d-none d-md-block"
         />
       </div>
       <div class="arrow">
-        <a href="/#app-sample" title="See my works below">
+        <a href="#works" title="See my works below">
           <i class="fa-solid fa-circle-arrow-down"></i
         ></a>
       </div>
     </div>
 
-    <div class="container container-fluid mt-5">
+    <div class="container container-fluid mt-5" id="works">
       <p class="text-center">
         The following section contains the brief presentations of some of my
         real works
       </p>
-      <div class="apps-details row m-5">
+      <div class="row m-5 apps-details">
         <div class="col d-none d-md-block">
           <img
-            src="/images/vyshywanka.png"
-            alt="vyshywanka-app-picture"
-            title="vyshyvanka app"
+            src="./images/book-store.png"
+            alt="book store website"
+            title="book store website"
             class="img-fluid"
           />
         </div>
         <div class="col">
           <h3 id="app-sample" class="mb-4 p-2 shadow rounded">
-            Vyshyvanka app
+            Book store app
           </h3>
           <p class="description mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            dolor, quasi praesentium quod mollitia eveniet impedit quaerat cum
-            cupiditate eum repellendus repellat sit doloribus soluta magni culpa
-            accusantium, sint provident?
+            Book store was created with create react app. It uses local storage,
+            react router, react context. After signing in the user name is
+            stored in local storage. Each book added also added to the local
+            storage according to the user. REact bootstrap used.
           </p>
           <a
-            href="#"
+            href="https://lida-skakun.github.io/book-store/"
             class="my-works-link d-block d-sm-inline shadow btn"
-            title="Launch Vyshyvanka app"
+            title="Launch Book store"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Launch app
           </a>
@@ -117,26 +118,27 @@
       </div>
       <div class="row m-5 apps-details">
         <div class="col">
-          <h3 class="mb-4 p-2 shadow rounded">Weather app</h3>
+          <h3 class="mb-4 p-2 shadow rounded">Weather react app</h3>
           <p class="description mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            dolor, quasi praesentium quod mollitia eveniet impedit quaerat cum
-            cupiditate eum repellendus repellat sit doloribus soluta magni culpa
-            accusantium, sint provident?
+            Simple application allows you to check the weather forecast. Build
+            on react, using Bootstrap. The forecast is received from the API,
+            that is provided by Axios.
           </p>
           <a
-            href="#"
+            href="https://lucky-tartufo-017c35.netlify.app/"
             class="my-works-link d-block d-sm-inline shadow btn"
-            title="Launch Weather app"
+            title="Launch Weather react app"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Launch app
           </a>
         </div>
         <div class="col d-none d-md-block">
           <img
-            src="/images/weather.png"
-            alt="weather-app-picture"
-            title="weather app"
+            src="./images/weather-react.jpg"
+            alt="weather-react-app"
+            title="weather react app"
             class="img-fluid"
           />
         </div>
@@ -144,31 +146,58 @@
       <div class="row m-5 apps-details">
         <div class="col d-none d-md-block">
           <img
-            src="/images/yoga.png"
-            alt="yoga-app-picture"
-            title="yoga app"
+            src="./images/pet-project.jpg"
+            alt="my-pet"
+            title="my-pet"
             class="img-fluid"
           />
         </div>
         <div class="col">
-          <h3 class="mb-4 p-2 shadow rounded">Yoga app</h3>
+          <h3 class="mb-4 p-2 shadow rounded">My pet app</h3>
           <p class="description mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            dolor, quasi praesentium quod mollitia eveniet impedit quaerat cum
-            cupiditate eum repellendus repellat sit doloribus soluta magni culpa
-            accusantium, sint provident?
+            Single page application, with responsive design. Built using
+            bootstrap.
           </p>
           <a
-            href="#"
+            href="https://stirring-genie-6fbf5c.netlify.app/"
             class="my-works-link d-block d-sm-inline shadow btn"
-            title="Launch Yoga app"
+            title="my pet app"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Launch app
           </a>
+        </div>
+      </div>
+      <div class="row m-5 apps-details">
+        <div class="col">
+          <h3 class="mb-4 p-2 shadow rounded">Weather JavaScript app</h3>
+          <p class="description mb-5">
+            Simple application allows you to check the weather forecast. Build
+            using only JavaScript. The forecast is received from the API, that
+            is get by Axios.
+          </p>
+          <a
+            href="https://papaya-biscotti-efb410.netlify.app/"
+            class="my-works-link d-block d-sm-inline shadow btn"
+            title="Launch Weather JavaScript app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Launch app
+          </a>
+        </div>
+        <div class="col d-none d-md-block">
+          <img
+            src="./images/weather-js.png"
+            alt="weather-react-app"
+            title="weather react app"
+            class="img-fluid"
+          />
         </div>
       </div>
     </div>
-    <footer class="mt-5">
+    <footer class="mt-5" id="contacts">
       <div class="contacts bg-main-gradient">
         <div>
           <h4>Work Inquiry</h4>
@@ -176,7 +205,7 @@
         </div>
         <div class="mt-4">
           <a
-            href="mailto:lida@gmail.com"
+            href="mailto:lida.tka4eva@gmail.com"
             class="general-link"
             title="You can send email here"
             >Contact me</a
@@ -185,22 +214,26 @@
       </div>
       <p class="text-center m-5">
         <a
-          href="https://twitter.com/lidatkachova"
+          href="http://linkedin.com/in/lidiia-tkachova-876988297"
           target="_blank"
-          title="go to twitter"
-          ><i class="fa-brands fa-twitter me-5"></i
+          rel="noopener noreferrer"
+          title="go to linkedin"
+          ><i class="fa-brands fa-linkedin me-5"></i
         ></a>
         <a
-          href="http://instagram.com/lida.codes"
+          href="https://github.com/lida-skakun"
+          rel="noopener noreferrer"
           target="_blank"
-          title="go to instagram"
-          ><i class="fa-brands fa-instagram"></i
+          title="go to github"
+          ><i class="fa-brands fa-github"></i
         ></a>
       </p>
       <p class="text-center author-info">
-        This website was coded by Lida Tkachova, and is
+        This website was coded by Lidiia Tkachova, and is
         <a
           href="https://github.com/lida-skakun/portfolio-first-green-design"
+          rel="noopener noreferrer"
+          target="_blank"
           title="go to github repository"
           >open-sourced</a
         >
